@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<head>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Mary Kariuki</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+        <div class="logo">Mary Kariuki</div>
+        <div class="hamburger-menu">
+            <div class="hambuger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()" >About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/pic.PNG" alt="Mary K pictre">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hi I'm</p>
+            <h1 class="title">Mary Kariuki</h1>
+            <p class="section_text_p2">Machine learning Engineer</p>
+            <div class="btn_container">
+                <button class="btn-color-2" onclick="window.open('./assets/CV.docx')">Download CV</button>
+                <button class="btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.PNG" alt="my linkedIn profile"
+                 class="icon" onclick="location.href='https://www.linkedin.com/in/mary-karuiki-2868b9243/'">
+                 <img src="./assets/github.PNG" alt="my GitHub profile"
+                 class="icon" onclick="location.href='https://github.com/kariukimary'">
+
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to know more </p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic_container">
+                <img src="./assets/pic1.PNG" class="about pic", width="400",height="50%">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/icon2.PNG" class="icon">
+                        <h3>Experience</h3>
+                        <p>Machine Learning Engineer <br>Intermediate </p>
+
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets\degree.PNG" class="icon">
+                        <h3>Education</h3>
+                        <p>Undergraduate<br>B.Sc.Bachelor of Bussines Information Technology</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Mary is a  skilled machine learning engineer with 
+                        a diverse background in bussiness information technology. I am passionate about leveraging cutting-edge
+                         technology to drive positive change in various domains. I am also a technical writer where i have published several
+                        blogs in different public forums and a technical lead at Data Science and Artificial Intelligence Club(DSAIC).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets\arrow2.PNG" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experince-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Machine Learning</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>pandas</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>numpy</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>seaborn</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>matplotlib</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>scikit learn</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Deep Learning</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>Data Annotation</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>Tensorflow</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>pytorch</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                        <article>
+                            <img src="./assets/check2.PNG" class="icon">
+                            <div>
+                                <h3>Keras</h3>
+                                <p>Experience</p>
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets\arrow2.PNG" class="icon arrow" onclick="location.href='./#projects'">
+        
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experienced-details-container">
+            <div class="about-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/annotation1.PNG" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project one</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kariukimary/Data_Annotation_Application'">Github</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/churn.PNG" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kariukimary/Data_Annotation_Application'">Github</button>
+                    
+
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/writting.PNG" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://medium.com/@marykariuki90'">Medium</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://dev.to/marykariuki90'">Dev.to</button>
+                    
+
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/cover.PNG" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project four</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1EW4xwK7k27Ma9D8hTwOb40cTQZbjAAqQzKnv3XywmS0/edit?usp=sharing'">Photo Essay</button>
+                    
+
+                </div>
+            </div>
+
+            </div>
+            </div>
+        </div>
+        <img src="./assets\arrow2.PNG" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="contact">
+        <p class="section_text_p1"> Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div  class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.PNG" class="icon contact-icon email-icon">
+                <p><a href="maito:kariukimary2021@gmail.com">kariukimary2021@gmail.com</a></p>
+            </div>
+        
+       
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.PNG" class="icon contact-icon linkedin-icon">
+                <p><a href="https://www.linkedin.com/in/mary-karuiki-2868b9243/">LinkedIn</a></p>
+            </div>
+        
+        
+            <div class="contact-info-container">
+                <img src="./assets/twitter.PNG" class="icon contact-icon twitter-icon" >
+                <p><a href="https://twitter.com/maryk_analyst">Twitter</a></p>
+            </div>
+        </div>
+        
+
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Project</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Mary Kariuki All Right Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
